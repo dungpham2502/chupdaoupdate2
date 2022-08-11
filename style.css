@@ -1,0 +1,156 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     font-family: sans-serif;
+ }
+ 
+ #head {
+     text-align: center;
+     padding-bottom: 80px;
+     background: url("site-background.webp");
+ }
+ 
+ #container {
+     padding-top: 30px;
+ }
+ 
+ #nav {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     margin-right: 30px;
+     padding-top: 20px;
+ }
+ 
+ .social-media {
+     margin-right: 6px;
+ }
+ 
+ .social-media img {
+     width: 25px;
+ }
+ 
+ hr {
+     display: inline-block;
+     width: 120px;
+     margin: 40px auto;
+     margin-bottom: 20px;
+     color: rgb(120, 100, 100);
+     border-top: 0.75px solid;
+ }
+ 
+ h1 {
+     font-weight: 400;
+     margin-top: 15px;
+     color: rgb(97, 69, 69);
+     font-weight: 700;
+ }
+ 
+ h3 {
+     margin-bottom: 10px;
+     font-weight: 500;
+     text-align: center;
+     margin-top: 15px;
+ }
+ 
+ .project-intro,
+ .project-info {
+     font-size: 15px;
+     color: rgb(24, 116, 85);
+     margin-top: 10px;
+     cursor: pointer;
+ }
+ 
+ .project-info {
+     margin-top: 30px;
+ }
+ 
+ .project-info li {
+     margin-top: 3px;
+ }
+ 
+ .project-info li span {
+     font-weight: bold;
+ }
+ 
+ .thumbnail {
+     cursor: pointer;
+     transition: 0.2s;
+ }
+ 
+ .thumbnail:hover {
+     opacity: 0.7;
+ }
+ 
+ img {
+     border: 0px;
+     padding: 5px;
+     width: 50px;
+ }
+ 
+ #logo {
+     width: 60px;
+     border-radius: 50%;
+ }
+ 
+ .grid-photos {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 5px;
+     margin: 0 auto;
+     text-align: center;
+ }
+ 
+ @media (max-width: 1200px) {
+     .grid-photos {
+         grid-template-columns: 1fr 1fr;
+     }
+ }
+ 
+ @media (max-width: 800px) {
+     .grid-photos {
+         grid-template-columns: 1fr;
+     }
+ }
+ 
+ .description {
+     margin-top: 10px;
+     margin-bottom: 30px;
+     font-weight: 700;
+ }
+ 
+ .thumbnail {
+     width: 430px;
+     height: 300px;
+     object-fit: cover;
+     object-position: unset;
+ }
+ 
+ #footer {
+     text-align: center;
+     padding-bottom: 100px;
+ }
+ 
+ #footer div {
+     color: rgb(24, 116, 85);
+     font-size: smaller;
+ }
+ 
+ #back-to-top {
+     letter-spacing: 2px;
+     font-size: 10px;
+     padding: 15px 25px;
+     color: white;
+     background: rgb(61, 51, 51);
+     border: 0;
+     margin-top: 25px;
+     transition: 0.15s;
+     border-radius: 2px;
+     margin-top: 100px;
+     margin-bottom: 100px;
+ }
+ 
+ #back-to-top:hover {
+     cursor: pointer;
+     opacity: 0.7;
+ }
